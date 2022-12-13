@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./css/style.css";
+import {FaInstagram, FaYoutube, FaTwitter} from "react-icons/fa";
 
 class Footer extends Component {
   render() {
@@ -10,13 +11,13 @@ class Footer extends Component {
             <div class="footer-connect">
               <h4>Connect With Us</h4>
               <a href="https://www.instagram.com/reyhanmd._">
-                <i class="fa-brands fa-instagram"></i>
+                <FaInstagram/>
               </a>
               <a href="https://www.instagram.com/reyhanmd._">
-                <i class="fa-brands fa-youtube"></i>
+               <FaYoutube/>
               </a>
               <a href="https://www.instagram.com/reyhanmd._">
-                <i class="fa-brands fa-twitter"></i>
+               <FaTwitter/>
               </a>
             </div>
             <div class="footer-content">

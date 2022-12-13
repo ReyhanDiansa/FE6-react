@@ -281,15 +281,12 @@ nav {
         padding: 4px 16px;
         width: 70%;
         text-align: center;
-
+        
+       
       }
       :hover {
         opacity: 80%;
         transition: .3s;
-      }
-
-      i {
-        margin-left: 16px;
       }
     }
   }
@@ -563,7 +560,7 @@ footer {
   height: 102px;
   .footer-connect {
     @include flex-center;
-    a i {
+    a {
       font-size: $fs+14;
       margin-right: 16px;
       color: $white;

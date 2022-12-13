@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import "./css/style.css";
-// import data from './siswa';
-// import fotbar from "./assets/images/fotbar.png";
-// import data   from "./data.json";
-// import { BrowserRouter as Router, Routes, Route}
-// from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 class Navbar extends Component {
   render() {
+
     // Navbar Scroll
       window.addEventListener("scroll", function () {
       var navbar = document.querySelector(".navbar");
@@ -33,7 +29,7 @@ class Navbar extends Component {
         <nav>
           <ul class="menu">
             <li>
-              <a href="#hero">Dashboard</a>
+              <a href="/">Dashboard</a>
             </li>
             <li>
               <a href="https://www.youtube.com/embed/knk1mipy0Ss?rel=0">
@@ -41,7 +37,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li>
-              <a href="#aboutus">About Us</a>
+              <a href="/">About Us</a>
             </li>
           </ul>
           <div class="menu-toggle" >

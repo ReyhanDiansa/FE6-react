@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./css/style.css";
-
-
 import Navbar from "./Navbar";
 import Default from "./Default";
 import Footer from "./Footer";

@@ -257,9 +257,6 @@ nav ul li a:hover::after {
   opacity: 80%;
   transition: 0.3s;
 }
-.aboutus-wrapper .team-foto i {
-  margin-left: 16px;
-}
 .aboutus-content {
   width: 70%;
   display: flex;
@@ -488,7 +485,7 @@ footer .footer-connect {
   display: flex;
   align-items: center;
 }
-footer .footer-connect a i {
+footer .footer-connect a {
   font-size: 24px;
   margin-right: 16px;
   color: #fff;

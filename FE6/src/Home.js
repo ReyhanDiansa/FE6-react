@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./css/style.css";
-// import data from './siswa';
 import fotbar from "./assets/images/fotbar.png";
 import data from "./data.json";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import {BsArrowRight} from "react-icons/bs";
 
 class Home extends Component {
   render() {
@@ -97,11 +97,9 @@ class Aboutus extends Component {
         <div class="team-foto">
           <img src={fotbar} alt="" class="fotbar" />
           <a href="/detail">
-            Show Details<i class="fa-solid fa-arrow-right-long"></i>
+            Show Details
+            <BsArrowRight />
           </a>
-          {/* <Link to="/detail" >
-            <i class="fa-solid fa-arrow-right-long"></i>
-            </Link> */}
         </div>
         <div class="aboutus-content">
           <div class="aboutus-content-title">
